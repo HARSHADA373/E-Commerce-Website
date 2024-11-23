@@ -1,0 +1,260 @@
+ *{
+  padding: 0;
+  margin: 0;
+ }
+
+ .header{
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  position: center;
+ }
+
+.logo{
+  margin:0.5rem 5rem 0rem 1rem;
+  color: goldenrod;
+  
+}
+
+
+a{
+  color: white;
+  text-decoration:none;
+  
+}
+
+ul{
+  display: flex;
+  position: relative;
+}
+
+ul li{
+  margin: 1rem;
+  list-style:none;
+  font-size: 1rem;
+
+}
+
+ .footer{
+  width: 100%;
+  height: 0.5rem;
+  background-color: black;
+  color: white;
+ }
+
+ body{
+  background: lightcyan;
+  
+}
+
+input {
+  border: 1px solid yellowgreen;
+  border-radius: 10px;
+  padding: 1vw 1vw;
+  outline: none;
+  margin: 5px;
+  display: flex;
+}
+
+table{
+  width:80%;
+  border: 1px solid grey;
+  margin-left: 2rem;
+}
+
+/* table tr{
+  border: 1px solid grey;
+} */
+
+table tr th{
+  border: 1px solid grey;
+  padding: 0.5rem;
+  color: black;
+  background-color: blanchedalmond;
+  margin-left: 2rem;
+
+}
+
+/* table tr td{
+  border: 1px solid grey;
+  padding: 0.5rem;
+} */
+
+/* .login{
+  p{
+    margin: 1rem 0rem 0rem 25rem;
+    font-size: 1.3rem;
+  }
+  a{
+    text-decoration: none;
+  }
+} */
+
+.homeuser{
+  text-align: center;
+}
+
+.form{
+  width:50%;
+  background-color:skyblue;
+  padding: 1rem;
+  margin-left: 10rem;
+  position: absolute;
+  justify-content: center;
+
+  .img{
+    margin: 1rem 1rem 1rem 3rem;
+
+    img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    }
+  }
+}
+
+button{
+  width:50;
+  padding: 0.5rem;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  font-weight: 1.3rem;
+  margin-right: 5rem;
+}
+
+.card{
+  color:gold;
+}
+
+.cardtext{
+  margin-bottom: 1.5rem;
+
+  h1{
+  
+    color:black;
+    text-align: center;
+  }
+  h3{
+    color:crimson;
+    text-align: center;
+  }
+}
+
+.carditem{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 5rem;
+}
+
+.productContainer{
+  display: flex;
+}
+
+.productContainer .img img{
+  width: 16rem;
+  height: 14rem;
+  margin-top: 4rem;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  
+}
+
+.boxcontainer{
+  display: flex;
+
+  .box{
+    padding-left: 2rem;
+    width: 15%;
+    border: 1px solid gray;
+    margin-left: 1rem;
+  }
+}
+
+.carticon{
+  font-size: 2.5rem;
+  position: absolute;
+  top: 1rem;
+  /* right: 10%; */
+  left:70rem;
+  
+}
+
+.badgeicon{
+  position: absolute;
+  top: 0.5rem;
+  /* right: 10%; */
+  left: 70rem;
+  
+}
+
+.usericon{
+  font-size: 2rem;
+  position: absolute;
+  top: 1rem;
+  /* right: 7%; */
+  left:73rem;
+}
+
+.cartimg{
+  width: 12rem;
+  height: 12rem; 
+}
+
+.cartpage{
+  width: 10rem;
+  height: 10rem;
+}
+
+.carttable{
+  table{
+    border: 1px solid black;
+    border-right: 1px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+  }
+  table tr{
+    border-bottom: 1px solod black;
+    color: white;
+    margin-left: 1px;
+    
+  }
+
+  table tr th, table tr td{
+    padding: 5px;
+    padding-bottom: 2rem;
+    
+  }
+}
+
+.emptycart{
+  position: absolute;
+  top: 5.5rem;
+  right: 2%;
+}
+
+.login{
+  position: absolute;
+  /* right: 0.5rem; */
+  left: 75.2rem;
+}
+
+.logout{
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.bg{
+  background-image: url(./img/img1.jpg);
+  width: 100%;
+  height: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
+}
